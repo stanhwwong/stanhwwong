@@ -95,6 +95,13 @@ body, html {
   opacity: 0.5;
 }
 
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
 .text-block {
     /*added*/
     display:block;
@@ -130,12 +137,12 @@ body, html {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: .3s ease;
   backface-visibility: hidden;
 }
 
 .hkes-middle {
-  transition: .5s ease;
+  transition: .3s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
