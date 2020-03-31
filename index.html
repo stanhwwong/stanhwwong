@@ -9,12 +9,38 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 
+    <style> 
+        #loader { 
+            border: 12px solid #f3f3f3; 
+            border-radius: 50%; 
+            border-top: 12px solid #444444; 
+            width: 70px; 
+            height: 70px; 
+            animation: spin 1s linear infinite; 
+        } 
+          
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+          
+        .center { 
+            position: absolute; 
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+    </style>     
   </head>
 
       
   <!-- The scrollable area -->
     
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div id="loader" class="center"></div> 
   <nav class="navbar  navbar-expand bg-dark navbar-dark sticky-top">  
    
     <ul class="navbar-nav">
@@ -111,3 +137,4 @@
     <script src="main.js"></script>  
   </body>
 </html>
+
