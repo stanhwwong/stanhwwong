@@ -119,19 +119,28 @@ body, html {
     text-align: center;
 }
 
+
+/*-- hkes section --*/
+
 .hkes-image{
   background-image: url('images/redistricting.jpg');
   background-size: cover;
   background-position: center;
   position: relative;  
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .3s ease;
+  backface-visibility: hidden;
 }
 
-/*-- hkes section --*/
 .hkes-container {
   position: relative;
   width: 100%;
 }
 
+/*--
 .hkes-image {
   opacity: 1;
   display: block;
@@ -140,6 +149,7 @@ body, html {
   transition: .3s ease;
   backface-visibility: hidden;
 }
+--*/
 
 .hkes-middle {
   transition: .3s ease;
