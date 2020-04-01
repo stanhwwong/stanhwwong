@@ -103,11 +103,11 @@ body, html {
   color:#000;
 }
     
-/*--- research section ---*/
+/*--- about section ---*/
 .parallax {
     
   /* The image used */
-  background-image: url("images/trees.jpg");
+  background-image: url("images/yuenLong.jpg");
 
   /* Set a specific height */
   height: 200%;
@@ -117,7 +117,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
@@ -140,7 +140,7 @@ body, html {
     width:100%;
     } 
 
-.research-text{
+.about-text{
     color: black;
     text-align: center;
 }
