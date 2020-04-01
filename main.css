@@ -157,12 +157,19 @@ table th {
 
 /*-- hkes section --*/
 
+.image-container{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
 .hkes-image{
-  /*-- background-image: url('images/hkes.png'); --*/
+  background-image: url("images/ballot.jpg");
   background-size: cover;
   background-position: center;
-  position: relative;  
+  position: relative; 
   opacity: 1;
+  margin: 0;
+  padding: 0;
   display: block;
   width: 100%;
   height: auto;
@@ -175,16 +182,6 @@ table th {
   width: 100%;
 }
 
-/*--
-.hkes-image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .3s ease;
-  backface-visibility: hidden;
-}
---*/
 
 .hkes-middle {
   transition: .3s ease;
