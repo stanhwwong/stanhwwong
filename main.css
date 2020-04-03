@@ -136,26 +136,14 @@ body {
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
+    body {
+        overflow: hidden;
+    }
     .parallax {
         background-attachment: scroll;
   }
 }
 
-/* ----------- iPhone 6 ----------- */
-
-@media screen and (max-width: 375px) {
-    body {
-        overflow: hidden;
-    }
-}
-
-/* ----------- iPad mini ----------- */
-
-@media screen and (max-width: 768px) {
-    body {
-        overflow: hidden;
-    }
-}
 
 .text-block {
     /*added*/
