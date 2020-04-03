@@ -3,7 +3,6 @@ html {
   margin: 0;
   background: transparent;
   height: 100%;    
-  overflow-x: hidden;  
 }
 
 body {
@@ -11,6 +10,7 @@ body {
   margin: 0;
   background: transparent;
   height: 100%;
+  overflow-x: hidden;  
 }
 
 .container-fluid{
@@ -136,9 +136,25 @@ body {
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
+    .parallax {
+        background-attachment: scroll;
   }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+@media screen and (max-width: 375px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+/* ----------- iPad mini ----------- */
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
 }
 
 .text-block {
