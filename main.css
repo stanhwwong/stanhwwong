@@ -239,3 +239,18 @@ table th {
   color: black;
 
 }
+
+#contact.lazy {
+   background-image: none;
+   background-color: #F1F1FA;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+#contact {
+  background-image: url("https://ik.imagekit.io/l36nnvdp44/yuenLong_-txW2Hgjcx.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
